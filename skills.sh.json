@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schema/skills.json",
+  "skills": [
+    {
+      "name": "learn-mode-skill",
+      "path": "skills/learn-mode-skill",
+      "description": "AI agent skill for simple, understandable, maintainable code with brief design explanations and concept clarification.",
+      "license": "MIT"
+    }
+  ]
+}
