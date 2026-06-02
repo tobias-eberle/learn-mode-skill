@@ -6,19 +6,17 @@ It pushes coding agents to prefer simple solutions, explain design decisions, cl
 
 > If the user cannot understand the change, the change is not finished.
 
-## Install with skills.sh
+## Philosophy
 
-Install the repository with the Skills CLI:
+Learn Mode is based on a simple idea:
 
-```bash
-npx skills add tobias-eberle/learn-mode-skill
-```
+AI should not just help write code faster. It should help write code the developer still understands next week, next month, and next year.
 
-If your environment supports explicit skill targeting, use:
-
-```bash
-npx skills add tobias-eberle/learn-mode-skill@learn-mode-skill
-```
+That means:
+- small changes over sweeping rewrites
+- explicit code over clever code
+- explanation over assumption
+- architecture clarity over generated complexity
 
 ## Why Learn Mode exists
 
@@ -61,19 +59,19 @@ Learn Mode is especially useful for:
 - Teams trying to reduce future maintenance debt from AI-generated code
 - Anyone who dislikes opaque vibe-coded changes
 
+## Install with skills.sh
 
-## Philosophy
+Install the repository with the Skills CLI:
 
-Learn Mode is based on a simple idea:
+```bash
+npx skills add tobias-eberle/learn-mode-skill
+```
 
-AI should not just help write code faster. It should help write code the developer still understands next week, next month, and next year.
+If your environment supports explicit skill targeting, use:
 
-That means:
-- small changes over sweeping rewrites
-- explicit code over clever code
-- explanation over assumption
-- architecture clarity over generated complexity
-
+```bash
+npx skills add tobias-eberle/learn-mode-skill@learn-mode-skill
+```
 
 ## Recommended setup
 
