@@ -79,7 +79,6 @@ Use Learn Mode in two layers:
 
 1. Add the system prompt in the section below to your agent's always-on instructions.
 2. Install or load `skills/learn-mode-skill/SKILL.md` as the deeper Learn Mode behavior.
-3. Use the examples to shape team conventions and refine response style.
 
 This setup gives you:
 - always-on simplicity and clarity defaults
